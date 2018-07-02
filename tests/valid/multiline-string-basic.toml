@@ -1,0 +1,4 @@
+value = """
+This multiline string ''' contains
+the raw delimiter
+"""

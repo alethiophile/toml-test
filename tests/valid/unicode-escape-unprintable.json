@@ -1,0 +1,6 @@
+{
+  "bell": {
+    "type": "string",
+    "value": "\u0004"
+  }
+}

@@ -30,7 +30,7 @@ func init() {
 	// If no test directory was specified, let's look for it automatically.
 	// Assumes `toml-test` was installed with the Go tool.
 	if len(flagTestdir) == 0 {
-		imp := path.Join("github.com", "uiri", "toml-test", "tests")
+		imp := path.Join("github.com", "BurntSushi", "toml-test", "tests")
 		for _, dir := range build.Default.SrcDirs() {
 			if readable(path.Join(dir, imp)) {
 				flagTestdir = path.Join(dir, imp)
@@ -68,8 +68,8 @@ func usage() {
 		path.Base(os.Args[0]))
 	log.Println(`
 parser-cmd should be a program that accepts TOML data on stdin until EOF,
-and outputs the corresponding JSON encoding on stdout. Please see 'README.md' 
-for details on how to satisfy the interface expected by 'toml-test' with your 
+and outputs the corresponding JSON encoding on stdout. Please see 'README.md'
+for details on how to satisfy the interface expected by 'toml-test' with your
 own parser.
 
 The 'testdir' directory should have two sub-directories: 'invalid' and 'valid'.

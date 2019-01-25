@@ -1,0 +1,15 @@
+{
+  "perverse": {
+    "type": "array",
+    "value": [
+      [
+        {
+          "key": {
+            "type": "string",
+            "value": "value"
+          }
+        }
+      ]
+    ]
+  }
+}

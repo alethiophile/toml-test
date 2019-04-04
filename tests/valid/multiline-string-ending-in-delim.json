@@ -1,0 +1,6 @@
+{
+  "string": {
+    "type": "string",
+    "value": "This multiline string \n ends in an apostrophe'"
+  }
+}

@@ -1,0 +1,6 @@
+lower = 3e02
+upper = 3E02
+neg = 3e-02
+pos = 3E+02
+pointlower = 3.4e02
+pointupper = 3.4E02

@@ -1,0 +1,6 @@
+{
+  "string": {
+    "type": "string",
+    "value": "This multiline string ends in a quote\""
+  }
+}

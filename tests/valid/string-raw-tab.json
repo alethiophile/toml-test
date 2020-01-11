@@ -1,0 +1,6 @@
+{
+  "string": {
+    "type": "string",
+    "value": "This string has\ta raw tab inside"
+  }
+}
